@@ -14,7 +14,7 @@ public class UserServiceImp implements UserService{
 
 
     private UserDAO userDAO;
-    @Autowired
+
     public UserServiceImp (UserDAO userDAO) {
         this.userDAO = userDAO;
     }
